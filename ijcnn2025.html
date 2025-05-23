@@ -117,7 +117,7 @@
               <!-- <img src="static/images/julian.jpg" alt="Julian McAuley" style="border-radius: 10px; height: 96px;"> -->
               <br>
               <!-- <a href="https://cseweb.ucsd.edu/~jmcauley/">Julian McAuley</a><sup>1</sup> -->
-              <a href="https://misc-lab.cse.cuhk.edu.hk/">Irwin King</a>
+              <a href="https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/">Irwin King</a>
             </span>
           </div>
 
@@ -131,7 +131,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href="static/slides/www25/overall-large-genrec-tutorial-www25.pdf"
+                <a href="static/slides/ppt_placeholder.pdf"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -140,7 +140,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href="https://github.com/hyp1231/awesome-generative-recommendation"
+                <a href="https://github.com/LucyDYu/Awesome-Multimodal-Continual-Learning"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
                       <i class="fas fa-list-ul"></i>
@@ -161,7 +161,8 @@
           </div>
 
           <br>
-          <h4 class="title is-4">Day 2: Tuesday, April 29, 2025, 9:00 AM - 12:30 PM (AEST), in Room C2.4</h4>
+          <!-- todo: add the date -->
+          <!-- <h4 class="title is-4">Day 2: Tuesday, April 29, 2025, 9:00 AM - 12:30 PM (AEST), in Room C2.4</h4> -->
           <!-- <div style="left:0; width:50%; height:0; position:relative; padding-bottom: 15%; margin:0 auto">
             <iframe src="https://www.tickcounter.com/widget/countdown/6985886" style="top:0; left:0; width:100%; position:absolute; border:0; overflow:hidden" title="Countdown to Tutorial"></iframe> -->
           </div>
@@ -180,7 +181,36 @@
         <h2 class="title is-3">About This Tutorial</h2>
         <div class="content has-text-justified">
           <p>
-            The field of recommender systems is rapidly evolving with the rise of large generative models. Leveraging scaling laws and flexible content generation, these models offer enhanced performance and new capabilities, enabling more accurate and expressive recommendations. In this tutorial, we provide a comprehensive overview of recent advancements in developing large generative recommendation models, focusing on two key paradigms: (1) adapting pre-trained large generative models, such as <strong>large language models (LLMs)</strong>, for recommendation tasks, and (2) promising paths toward developing large generative recommendation models from scratch, such as autoregressive (mainly based on <strong>semantic IDs</strong>) or <strong>diffusion</strong> models. We then make an in-depth discussion on the challenges, open questions, and potential future directions in developing large generative recommendation models that could shape the next generation recommender systems.
+            Multimodal models are recently gaining popularity and become widely used in both academia
+and industries. However, currently, most models face two challenges:
+          </p>
+          <ol>
+            <li>Fixed models do not have up-to-date knowledge, but direct finetuning will lead to
+catastrophic forgetting of models' pre-trained knowledge.</li>
+            <li>Models do not address trustworthy concerns such as safety and privacy.</li>
+          </ol>
+          <p>
+            In this tutorial, we aim to give a structured presentation of works to address the challenges
+above.
+          </p>
+          <p>
+            Continual learning (CL) aims to empower machine learning models to learn continually from new
+            data, while building upon previously acquired knowledge without forgetting. As recent machine
+            learning models have evolved from small to large pre-trained architectures, and from supporting
+            unimodal to multimodal data, it has become more imperative and important to develop AI systems
+            capable of learning continually from new datasets while maintaining computational and resource
+            efficiency, hence the rise of multimodal continual learning (MMCL). We will present our novel
+            works and also give descriptions of other people's excellent works, allowing the audience to gain a
+            holistic perspective of this field.
+          </p>
+          <p>
+            Multimodal trustworthiness primarily focuses on enhancing the reliability and stability of
+            multimodal systems, aiming to ensure more precise and credible outcomes during multimodal data
+            fusion and decision-making processes. With the increased accessibility of multimodal data and the
+            continuous advancement of multimodal large-scale model technologies, the trustworthiness and
+            security of models have become increasingly significant, prompting extensive research interest
+            within the academic community. We will present novel works which address various aspects of
+            trustworthiness, including explainability, privacy, security, robustness, and fairness.
           </p>
         </div>
       </div>
@@ -189,10 +219,10 @@
   </div>
 </section>
 
-
+<!-- Program Schedule -->
+<!-- 
 <section class="section">
   <div class="container is-max-desktop">
-    <!-- Program Schedule -->
     <div class="columns is-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">Tutorial Program</h2>
@@ -246,11 +276,12 @@
         </div>
       </div>
     </div>
-    <!--/ Program Schedule -->
   </div>
 </section>
+-->
 
 
+<!-- 
 <section class="section">
   <div class="container is-max-desktop">
     <div class="columns is-centered">
@@ -272,7 +303,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
@@ -280,11 +311,11 @@
     <div class="columns is-centered">
       <div class="column is-four-fifths">
         <h2 class="title is-3">BibTeX</h2>
-        <pre><code>@inproceedings{www25-gen-rec-tutorial,
-  author = {Hou, Yupeng and Zhang, An and Sheng, Leheng and Yang, Zhengyi and Wang, Xiang and Chua, Tat-Seng and McAuley, Julian},
-  title = {Generative Recommendation Models: Progress and Directions},
-  year = {2025},
-  booktitle = {Companion Proceedings of the ACM Web Conference 2025},
+        <pre><code>@misc{ijcnn2025-mm-cl-t-tutorial,
+  title = {Advances in Multimodal Models: Continual Learning and Trustworthiness},
+  author = {Dianzhi Yu, Xinni Zhang, Guanzhong Chen, Zhuo Wang, Yukun Zhang, Zenglin Xu, Irwin King},
+  howpublished = {Tutorial at the 2025 International Joint Conference on Neural Networks (IJCNN)},
+  year = {2025}
 }</code></pre>
       </div>
     </div>
